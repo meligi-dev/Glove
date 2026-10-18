@@ -1,0 +1,23 @@
+# Jupyter & Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Large Model weights
+*.pt
+*.bin
+*.pth
+*.vec
+**/best-model.pt
+
+# Large Datasets & Vectors (>100MB)
+glove.6B/
+*.txt
+
+# OS / ISO image files
+*.iso
+
+# Environment
+.env
+venv/
+.venv/
